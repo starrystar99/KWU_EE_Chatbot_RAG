@@ -40,3 +40,4 @@ CHATBOT_RAG_LLM/
   - FAISS and BM25 run in parallel, scores are normalized, and results are merged.
 3. LLM Response Generation
   - The retrieved context is sent to either GPT or EEVE (configurable), producing the final answer.
+
