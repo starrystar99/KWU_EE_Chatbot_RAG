@@ -34,6 +34,7 @@ This project is a Capstone Design implementation of a hybrid search chatbot usin
     - └── ...
 
 (3) How It Works
+
 <img width="1692" height="759" alt="image" src="https://github.com/user-attachments/assets/99452a83-5a54-47e4-bd1e-1f74d7f68892" />
 - Step 1 : User Input → Query Classification
   - The system classifies the query as professor, course, or general.
@@ -41,4 +42,5 @@ This project is a Capstone Design implementation of a hybrid search chatbot usin
   - FAISS and BM25 run in parallel, scores are normalized, and results are merged.
 - Step 3: LLM Response Generation
   - The retrieved context is sent to either GPT or EEVE (configurable), producing the final answer.
+
 
