@@ -41,7 +41,9 @@ This project is a Capstone Design implementation of a hybrid search chatbot usin
 3. LLM Response Generation
   - The retrieved context is sent to either GPT or EEVE (configurable), producing the final answer.
 
-<img width="525" height="250" alt="image" src="https://github.com/user-attachments/assets/8b530f84-aa25-449a-8cf9-070b1ffe45bf" />
+<img width="1692" height="759" alt="image" src="https://github.com/user-attachments/assets/99452a83-5a54-47e4-bd1e-1f74d7f68892" />
+
+
 
 
 
