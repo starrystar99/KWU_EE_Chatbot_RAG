@@ -25,13 +25,13 @@ This project is a Capstone Design implementation of a hybrid search chatbot usin
   - Visualization of vector space and search results for analysis.
  
 (2) Project Structure
-  CHATBOT_RAG_LLM/
-  ├── search.py         # Hybrid search logic (FAISS + BM25)
-  ├── gpt.py            # GPT-based chatbot
-  ├── local_myllm.py    # EEVE-based local chatbot
-  ├── embedding/        # Embedding storage
-  ├── data/             # Source data files
-  └── ...
+  - CHATBOT_RAG_LLM/
+    - ├── search.py         # Hybrid search logic (FAISS + BM25)
+    - ├── gpt.py            # GPT-based chatbot
+    - ├── local_myllm.py    # EEVE-based local chatbot
+    - ├── embedding/        # Embedding storage
+    - ├── data/             # Source data files
+    - └── ...
 
 (3) How It Works
 1. User Input → Query Classification
@@ -40,5 +40,6 @@ This project is a Capstone Design implementation of a hybrid search chatbot usin
   - FAISS and BM25 run in parallel, scores are normalized, and results are merged.
 3. LLM Response Generation
   - The retrieved context is sent to either GPT or EEVE (configurable), producing the final answer.
+
 
 
